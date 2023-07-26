@@ -1,0 +1,33 @@
+/* Required Required Required Required Required Required Required Required */
+
+body {
+    background-color: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    padding: 2rem;
+    background-color: #FFF;
+    border-radius: 0.4rem;
+    color: #000;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+main {
+    flex: 8 1 20rem;
+}
+
+aside {
+    flex: 2 1 10rem;
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+body {
+    gap: 10px;
+}

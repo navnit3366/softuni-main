@@ -1,0 +1,63 @@
+/* Required Required Required Required Required Required Required Required */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 65vw;
+    display: flex;
+    align-items: center;
+}
+
+.week {
+    display: flex;
+    align-items: center;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    border: 1px solid black;
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+span {
+    padding-top: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.week {
+    flex-wrap: wrap;
+}
+
+.week-title {
+    font-weight: bold;
+    flex-basis: 100vw;
+}
+
+.container {
+    height: 60vh;
+}
+
+.week-title, .week-day {
+    height: 15vh;
+}
+
+.notes {
+    align-self: stretch;
+}
+
+.notes > span {
+    font-weight: bold;
+    align-self: stretch;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

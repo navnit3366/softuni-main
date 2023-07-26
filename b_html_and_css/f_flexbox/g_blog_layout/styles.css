@@ -1,0 +1,60 @@
+/* Required Required Required Required Required Required Required Required */
+
+body {
+    background-color: rgb(238,238,238);
+}
+
+img {
+    background-color: rgb(255,255,255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+a {
+    color: rgb(0,153,0);
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+.navbar {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+main {
+    flex: 4;
+}
+
+#elevator-img {
+    float: right;
+    padding: 5px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#nature-img {
+    float: left;
+    padding: 5px;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+aside {
+    flex: 1;
+    margin-left: 20px;
+}

@@ -1,0 +1,34 @@
+/* Required Required Required Required Required Required Required Required */
+
+body {
+    background-color: rgb(238,238,238);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+body {
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    gap: 20px;
+}
+
+img {
+    box-shadow: 1px 1px 10px 1px grey, -1px -1px 10px 1px grey;
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+img:nth-of-type(2) {
+    width: 600px;
+}
+

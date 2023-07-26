@@ -1,0 +1,39 @@
+/* Required Required Required Required Required Required Required Required */
+
+body {
+    display: flex;
+    background-color: rgb(238,238,238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+footer {
+    position: fixed;
+    color: rgb(255,255,255);
+    background-color: rgb(102,102,102);
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+body {
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+}
+
+header {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid black;
+}
+
+header > p {
+    margin: 0;
+}

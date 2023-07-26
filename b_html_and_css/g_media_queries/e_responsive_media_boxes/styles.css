@@ -1,0 +1,48 @@
+/* REQUIRED REQUIRED REQUIRED REQUIRED REQUIRED REQUIRED REQUIRED REQUIRED */
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238,238,238);
+}
+
+.card {
+    background-color: rgb(255,255,255);
+}
+
+.button {
+    background-color: rgb(0,153,0);
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+/* NOT REQUIRED NOT REQUIRED NOT REQUIRED NOT REQUIRED NOT REQUIRED */
+
+.card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.card-description {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: right;
+}
+
+img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

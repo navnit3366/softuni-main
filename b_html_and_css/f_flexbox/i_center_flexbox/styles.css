@@ -1,0 +1,29 @@
+/* Required Required Required Required Required Required Required Required */
+
+body {
+    background-color: rgb(238,238,238);
+    display: flex;
+}
+
+.card {
+    background-color: rgb(255,255,255);
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 1px grey, -2px -2px 20px 1px grey;
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+

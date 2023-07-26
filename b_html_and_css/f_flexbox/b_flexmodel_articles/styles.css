@@ -1,0 +1,28 @@
+/* Required Required Required Required Required Required Required Required */
+
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    gap: 3vw;
+}

@@ -1,0 +1,38 @@
+/* Required Required Required Required Required Required Required Required */
+
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(239,238,238);
+    justify-content: center;
+}
+
+.gallery {
+    width: 75vw;
+}
+
+ul {
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+li {
+    align-items: center;
+    border: 10px solid black;
+    padding: 15px;
+    background-color: white;
+}
+

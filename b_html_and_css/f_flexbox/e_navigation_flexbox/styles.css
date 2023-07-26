@@ -1,0 +1,45 @@
+/* Required Required Required Required Required Required Required Required */
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    color: rgb(0,153,0);
+}
+
+/* NOT Required NOT Required NOT Required NOT Required NOT Required */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, main {
+    width: 70vw;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
